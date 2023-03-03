@@ -1,0 +1,308 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h3{
+    font-family: 'DM Sans', sans-serif;
+}
+
+h4{
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(44, 44, 44);
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 80%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.texto-nav{
+    text-decoration: none;
+    line-height: 150px;
+    font-weight: bolder;
+}
+
+.nav{
+    background-color: #CA5E57;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0; 
+    z-index:10;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.logo {
+    margin-top: 10px;
+    height: 110px;
+}
+
+.foto-carousel {
+    margin-top: 80px;
+    height: 60vh;
+}
+
+.slider-cafe {
+    margin-top: 100px;
+    background-color: #D9BF90;
+}
+
+.info-feka p {
+    font-family: 'DM Serif Display', serif;
+    margin: 25px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #D9BF90;
+}
+
+.info-feka {
+    background-color: #D9BF90;
+    padding: 4em;
+    text-align: center;
+}
+
+.button-chico{
+    background-color: #CA5E57;
+    color: white;
+    height: 40px;
+    width: 10%;
+    line-height: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.momentos-unicos{
+    background-color: #6C4D38;
+    color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 30px;
+}
+
+.header-seccion hr{
+    display: inline-block;
+    width: 200px;
+    background-color: #312D2D;
+    height: 2px;
+    margin-top: 30px;
+}
+
+.propuesta-feca{
+    background-color: #F9F8E6;
+    color: #312D2D;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+h2{
+    font-size:xx-large;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.pastillas {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between
+}
+
+.pastilla {
+    background-color: #D9BF90;
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.pastilla p{
+    margin-right: 10px;
+}
+
+.img-pastilla {
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.button-grande {
+    background-color: #CA5E57;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.galeria {
+    background-color: #F9F8E6;
+    color: #312D2D;
+}
+
+.container-galeria{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.galeria-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.galeria-col img{
+    width: 100%;
+}
+
+.galeria-row img{
+    height: 100%;
+}
+
+.row1 {
+    background-color: white;
+}
+
+.galeria-row {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.fotos-galeria {
+    width: 100%
+}
+
+.precio {
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    width: 30%;
+    border: 1px solid #000;
+}
+
+.precio img {
+    width:55%;
+}
+
+.costo {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.cuotas {
+    font-size: 0.5rem;
+    margin: 0;
+    color: rgb(70, 70, 70);
+}
+
+
+.ofertas {
+    padding: 30px;
+    background-color: #F9F8E6;
+}
+
+.contacto {
+    background-color: #F9F8E6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.formulario {
+    margin: 50px;
+    background-color:#D9BF90;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.p-contacto {
+    margin: 0;
+    position: relative;
+    bottom: 15px;
+}
+
+.header-contacto{
+    margin: 0;
+}
+
+input {
+    width: 80%;
+    margin: 5px;
+    height: 2rem;
+}
+
+textarea {
+    width: 80%;
+    margin: 5px;
+}
+
+.contacto img{
+    height: 200px;
+}
+
+footer {
+    height: 200px;
+    background-color: #CA5E57;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes img {
+    height: 100px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
